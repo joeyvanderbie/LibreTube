@@ -75,10 +75,14 @@ object ThemeHelper {
     /**
      * change the app icon
      */
+    // activity aliases are declared relative to the namespace of the app, which differs from the
+    // application id (e.g. for debug builds or forks with a different application id)
+    private const val ACTIVITY_ALIAS_NAMESPACE = "com.github.libretube"
+
     fun changeIcon(context: Context, newLogoActivityAlias: String) {
         // Disable Old Icon(s)
         for (appIcon in IconsSheetAdapter.availableIcons) {
-            val activityClass = context.packageName.removeSuffix(".debug") + "." + appIcon.activityAlias
+            val activityClass = ACTIVITY_ALIAS_NAMESPACE + "." + appIcon.activityAlias
 
             // remove old icons
             context.packageManager.setComponentEnabledSetting(
@@ -89,7 +93,7 @@ object ThemeHelper {
         }
 
         // set the class name for the activity alias
-        val newLogoActivityClass = context.packageName.removeSuffix(".debug") + "." + newLogoActivityAlias
+        val newLogoActivityClass = ACTIVITY_ALIAS_NAMESPACE + "." + newLogoActivityAlias
         // Enable New Icon
         context.packageManager.setComponentEnabledSetting(
             ComponentName(context.packageName, newLogoActivityClass),
