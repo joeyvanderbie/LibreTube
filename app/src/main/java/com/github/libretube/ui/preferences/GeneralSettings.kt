@@ -31,6 +31,18 @@ class GeneralSettings : BasePreferenceFragment() {
             onCustomDownloadFolderSelected(uri)
         }
 
+    // the all files access settings screen doesn't return a result code, so check the
+    // permission state once the user navigates back to the app
+    private val requestAllFilesAccess =
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
+            val context = context ?: return@registerForActivityResult
+            if (DownloadHelper.hasAllFilesAccess(context)) {
+                pickDownloadFolder.launch(null)
+            } else {
+                context.toastFromMainThread(R.string.download_location_permission_denied)
+            }
+        }
+
     private val requestLegacyStoragePermission =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
             if (granted) {
@@ -198,12 +210,14 @@ class GeneralSettings : BasePreferenceFragment() {
             .setPositiveButton(R.string.okay) { _, _ ->
                 val packageUri = Uri.fromParts("package", BuildConfig.APPLICATION_ID, null)
                 try {
-                    startActivity(
+                    requestAllFilesAccess.launch(
                         Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, packageUri)
                     )
                 } catch (e: Exception) {
                     runCatching {
-                        startActivity(Intent(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION))
+                        requestAllFilesAccess.launch(
+                            Intent(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION)
+                        )
                     }
                 }
             }
