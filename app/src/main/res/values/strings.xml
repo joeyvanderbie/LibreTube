@@ -578,4 +578,14 @@
     <string name="import_temp_playlist_summary">Do you want to create a new playlist named \'%1$s\'? The playlist will contain %2$d videos.</string>
     <string name="comment_verified">Verified</string>
     <string name="comment_pinned">Pinned</string>
+    <string name="download_location">Download location</string>
+    <string name="download_location_default">Default (internal app storage)</string>
+    <string name="download_location_external_volume">External storage %1$d (app storage)</string>
+    <string name="download_location_custom">Custom folder…</string>
+    <string name="download_location_unsupported_folder">This folder can\'t be used as download location. Please choose a folder on the internal storage or an SD card.</string>
+    <string name="download_location_not_writable">The selected folder is not writable.</string>
+    <string name="download_location_permission_title">Storage permission required</string>
+    <string name="download_location_permission_message">To save downloads to a custom folder, LibreTube needs permission to access all files. Please grant the permission and choose the folder again.</string>
+    <string name="download_location_permission_denied">Storage permission denied</string>
+    <string name="download_location_existing_info">Already downloaded videos stay in their previous location.</string>
 </resources>

@@ -54,6 +54,11 @@
             android:summary="@string/external_download_provider_summary"
             android:title="@string/external_download_provider" />
 
+        <Preference
+            android:icon="@drawable/ic_download_folder"
+            app:key="download_location"
+            app:title="@string/download_location" />
+
     </PreferenceCategory>
 
     <PreferenceCategory app:title="@string/advanced">
