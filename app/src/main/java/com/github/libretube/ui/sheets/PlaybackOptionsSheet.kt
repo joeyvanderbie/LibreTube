@@ -21,6 +21,7 @@ import com.github.libretube.ui.adapters.SliderLabelsAdapter
 import kotlin.math.absoluteValue
 import kotlin.math.log
 import kotlin.math.pow
+import kotlin.math.roundToInt
 
 class PlaybackOptionsSheet(
     private val player: MediaController
@@ -39,7 +40,7 @@ class PlaybackOptionsSheet(
             binding.speed.value = it
         }
 
-        binding.speed.value = player.playbackParameters.speed
+        binding.speed.value = snapToSpeedSlider(player.playbackParameters.speed)
         binding.pitch.value = playbackPitchToSemitone(player.playbackParameters.pitch)
 
         val currentSemitone = binding.pitch.value.round(2)
@@ -98,7 +99,7 @@ class PlaybackOptionsSheet(
             onChange()
         }
         binding.speed.setLabelFormatter { value ->
-            return@setLabelFormatter "${value}x"
+            return@setLabelFormatter "${value.round(2)}x"
         }
 
         binding.pitch.addOnChangeListener { _, _, _ ->
@@ -132,6 +133,18 @@ class PlaybackOptionsSheet(
 
         val currentSpeed = player.playbackParameters.speed.toString()
         PreferenceHelper.putString(PreferenceKeys.PLAYBACK_SPEED, currentSpeed)
+    }
+
+    /**
+     * The slider crashes if its value is out of range or not a multiple of the step size,
+     * e.g. while fast forwarding or for speeds saved with a different step size.
+     */
+    private fun snapToSpeedSlider(speed: Float): Float {
+        val slider = binding.speed
+        val steps = ((speed.coerceIn(slider.valueFrom, slider.valueTo) - slider.valueFrom) /
+            slider.stepSize).roundToInt()
+        return (slider.valueFrom + steps * slider.stepSize).round(2)
+            .coerceIn(slider.valueFrom, slider.valueTo)
     }
 
     private fun clearEditTextFocusAndHideKeyboard() {
