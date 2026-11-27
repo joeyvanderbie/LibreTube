@@ -42,6 +42,7 @@ import com.github.libretube.extensions.parcelableExtra
 import com.github.libretube.extensions.toLocalDate
 import com.github.libretube.extensions.toastFromMainDispatcher
 import com.github.libretube.extensions.toastFromMainThread
+import com.github.libretube.helpers.AudioRemuxHelper
 import com.github.libretube.helpers.DownloadHelper
 import com.github.libretube.helpers.DownloadHelper.getNotificationId
 import com.github.libretube.helpers.ImageHelper
@@ -295,13 +296,14 @@ class DownloadService : LifecycleService() {
         val sink = item.path.sink(StandardOpenOption.APPEND).buffer()
         var totalRead = item.path.fileSize()
         var numberOfTries = 0
+        var isCompleted = false
         while (downloadQueue[item.id] && !item.isFinished) {
             try {
                 when (val result = downloadProvider.downloadNextChunk(item, sink)) {
                     DownloadProgressResult.DownloadComplete -> {
-                        setPauseNotification(notificationBuilder, item, true)
-                        _downloadFlow.emit(item.id to DownloadStatus.Completed)
-                        downloadQueue[item.id] = false
+                        // the completion is announced after the file has been closed, because
+                        // audio files might still be converted to another container
+                        isCompleted = true
                         break
                     }
                     DownloadProgressResult.Failed -> {
@@ -343,6 +345,14 @@ class DownloadService : LifecycleService() {
             sink.close()
         }
 
+        if (isCompleted) {
+            if (item.type == FileType.AUDIO) convertAudioContainer(item)
+
+            setPauseNotification(notificationBuilder, item, true)
+            _downloadFlow.emit(item.id to DownloadStatus.Completed)
+            downloadQueue[item.id] = false
+        }
+
         // start the next download if there are any remaining ones enqueued
         startNextEnqueueDownload()
 
@@ -352,6 +362,20 @@ class DownloadService : LifecycleService() {
         // if no new download was enqueued (i.e. there's no paused/stopped download left),
         // look if any downloads are still running, and if not, stop the service
         stopServiceIfDone()
+    }
+
+    /**
+     * Store downloaded WebM audio files as Ogg Opus files (.opus), video files are not affected.
+     */
+    private suspend fun convertAudioContainer(item: DownloadItem) = withContext(Dispatchers.IO) {
+        val convertedPath = AudioRemuxHelper.remuxWebmOpusToOgg(item.path) ?: return@withContext
+
+        item.path = convertedPath
+        item.fileName = convertedPath.fileName.toString()
+        // the converted file has a different size, which is used to check whether the download
+        // has been finished
+        item.downloadSize = convertedPath.fileSize()
+        Database.downloadDao().updateDownloadItem(item)
     }
 
     private suspend fun startNextEnqueueDownload() {

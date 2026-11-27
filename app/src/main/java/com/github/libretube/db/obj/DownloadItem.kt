@@ -25,7 +25,7 @@ data class DownloadItem(
     var id: Int = 0,
     val type: FileType,
     val videoId: String,
-    val fileName: String,
+    var fileName: String,
     var path: Path,
     var format: String? = null,
     var quality: String? = null,
