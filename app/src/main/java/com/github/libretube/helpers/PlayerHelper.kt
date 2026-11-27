@@ -423,7 +423,8 @@ object PlayerHelper {
             PlayerEvent.Forward
         )
         return if (alternativePiPControls) {
-            listOf(audioModeAction, playPauseAction, skipNextAction)
+            // the audio only action is placed on the right side of the PiP window
+            listOf(playPauseAction, skipNextAction, audioModeAction)
         } else {
             listOf(rewindAction, playPauseAction, forwardAction)
         }
