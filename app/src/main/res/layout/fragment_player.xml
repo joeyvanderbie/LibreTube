@@ -194,9 +194,9 @@
         android:src="@drawable/ic_headphones"
         android:tooltipText="@string/audio_only_mode"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="@id/main_container"
-        app:layout_constraintEnd_toEndOf="@id/main_container"
-        app:layout_constraintTop_toTopOf="@id/main_container" />
+        app:layout_constraintBottom_toBottomOf="@+id/play_imageView"
+        app:layout_constraintEnd_toStartOf="@+id/play_imageView"
+        app:layout_constraintTop_toTopOf="@+id/play_imageView" />
 
     <ImageView
         android:id="@+id/close_imageView"
@@ -209,7 +209,7 @@
         android:tooltipText="@string/tooltip_close"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="@id/main_container"
-        app:layout_constraintEnd_toStartOf="@id/audio_only_imageView"
+        app:layout_constraintEnd_toEndOf="@id/main_container"
         app:layout_constraintTop_toTopOf="@id/main_container" />
 
     <ImageView
@@ -236,8 +236,8 @@
         android:paddingHorizontal="8dp"
         android:paddingVertical="15dp"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="@+id/play_imageView"
-        app:layout_constraintEnd_toStartOf="@+id/play_imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/audio_only_imageView"
+        app:layout_constraintEnd_toStartOf="@+id/audio_only_imageView"
         app:layout_constraintStart_toEndOf="@+id/player"
         app:layout_constraintTop_toTopOf="@+id/play_imageView" />
 
