@@ -12,6 +12,10 @@
             <KeyAttribute
                 android:alpha="0"
                 motion:framePosition="90"
+                motion:motionTarget="@+id/audio_only_imageView" />
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="90"
                 motion:motionTarget="@+id/close_imageView" />
             <KeyAttribute
                 android:alpha="0"
@@ -61,7 +65,7 @@
             motion:layout_constraintStart_toStartOf="@id/main_container"
             motion:layout_constraintTop_toTopOf="@id/main_container" />
         <Constraint
-            android:id="@+id/close_imageView"
+            android:id="@+id/audio_only_imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -69,6 +73,15 @@
             android:visibility="visible"
             motion:layout_constraintBottom_toBottomOf="@id/main_container"
             motion:layout_constraintEnd_toEndOf="@id/main_container"
+            motion:layout_constraintTop_toTopOf="@id/main_container" />
+        <Constraint
+            android:id="@+id/close_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:visibility="visible"
+            motion:layout_constraintBottom_toBottomOf="@id/main_container"
+            motion:layout_constraintEnd_toStartOf="@id/audio_only_imageView"
             motion:layout_constraintTop_toTopOf="@id/main_container" />
         <Constraint
             android:id="@+id/play_imageView"

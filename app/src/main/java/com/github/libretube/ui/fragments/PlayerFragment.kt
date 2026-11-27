@@ -676,6 +676,11 @@ class PlayerFragment : Fragment(R.layout.fragment_player), CustomPlayerCallback 
             if (::playerController.isInitialized) playerController.togglePlayPauseState()
         }
 
+        // continue playback of the minimized player as audio only
+        binding.audioOnlyImageView.setOnClickListener {
+            if (::playerController.isInitialized) switchToAudioMode()
+        }
+
         activity?.supportFragmentManager
             ?.setFragmentResultListener(
                 CommentsSheet.HANDLE_LINK_REQUEST_KEY,
