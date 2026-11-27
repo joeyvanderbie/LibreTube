@@ -315,7 +315,6 @@
     <string name="forward">Перамотка наперад</string>
     <string name="mark_as_watched">Пазначыць як прагледжанае</string>
     <string name="alternative_pip_controls">Альтэрнатыўныя элементы кіравання PiP</string>
-    <string name="alternative_pip_controls_summary">Паказваць толькі аўдыя і прапускаць элементы кіравання ў PiP замест перамоткі наперад і назад</string>
     <string name="faq">Часта задаюць пытанні</string>
     <string name="uploaderAndVideoCount">%1$s • %2$d відэа</string>
     <string name="new_videos_badge_summary">Паказаць значок з колькасцю новых відэа, калі яны ёсць</string>

@@ -305,7 +305,6 @@
     <string name="hide_watched_from_feed">Сакриј већ одгледане видео снимке</string>
     <string name="forward">Премотај унапред</string>
     <string name="alternative_pip_controls">Алтернативне контроле слике у слици</string>
-    <string name="alternative_pip_controls_summary">Прикажите само звук и контроле за прескакање у слици у слици уместо премотавања унапред и уназад</string>
     <string name="audio_only_mode">Режим плејера аудио снимка</string>
     <string name="audio_only_mode_summary">Претворите LibreTube у музички плејер</string>
     <string name="concurrent_downloads_limit_reached">Достигнуто је ограничење максималног броја истовремених преузимања.</string>

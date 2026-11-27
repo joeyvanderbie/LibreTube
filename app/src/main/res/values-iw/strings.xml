@@ -308,7 +308,6 @@
     <string name="forward">קדימה</string>
     <string name="pause">השהיה</string>
     <string name="alternative_pip_controls">פקדים חלופיים לתמונה בתוך תמונה</string>
-    <string name="alternative_pip_controls_summary">להציג בקרי שמע בלבד ודילוג בתמונה בתוך תמונה במקום קדימה ואחורה</string>
     <string name="download_completed">ההורדה הושלמה</string>
     <string name="no_subtitle">אין כתובית</string>
     <string name="download_paused">ההורדה מושהית</string>

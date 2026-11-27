@@ -315,7 +315,6 @@
     <string name="add_to_bookmarks">Lisää kirjanmerkkeihin</string>
     <string name="remove_bookmark">Poista kirjanmerkki</string>
     <string name="rewind">Kelaa taaksepäin</string>
-    <string name="alternative_pip_controls_summary">Näytä vain ääni ja ohita kontrollit kuva kuvassa eteenpäin- ja taaksepäin kelauksen sijaan</string>
     <string name="audio_only_mode">Vain ääni -tila</string>
     <string name="skip_silence">Ohita hiljaisuus</string>
     <string name="help">Apu</string>

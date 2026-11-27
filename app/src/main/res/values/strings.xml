@@ -365,7 +365,7 @@
     <string name="rewind">Rewind</string>
     <string name="forward">Forward</string>
     <string name="alternative_pip_controls">Alternative PiP controls</string>
-    <string name="alternative_pip_controls_summary">Show audio only and skip controls in PiP instead of forward and rewind</string>
+    <string name="alternative_pip_controls_summary">Show a skip control in PiP instead of rewind</string>
     <string name="audio_only_mode">Audio only mode</string>
     <string name="audio_only_mode_summary">Turn LibreTube into a music player</string>
     <string name="sleep_timer">Sleep timer</string>

@@ -416,17 +416,11 @@ object PlayerHelper {
             PlayerEvent.Next
         )
 
-        val forwardAction = getRemoteAction(
-            activity,
-            seekIconWithSpeed(activity.resources, R.drawable.ic_forward),
-            R.string.forward,
-            PlayerEvent.Forward
-        )
+        // the audio only action is placed on the right side of the PiP window
         return if (alternativePiPControls) {
-            // the audio only action is placed on the right side of the PiP window
             listOf(playPauseAction, skipNextAction, audioModeAction)
         } else {
-            listOf(rewindAction, playPauseAction, forwardAction)
+            listOf(rewindAction, playPauseAction, audioModeAction)
         }
     }
 

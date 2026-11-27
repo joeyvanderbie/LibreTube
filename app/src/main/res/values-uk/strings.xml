@@ -308,7 +308,6 @@
     <string name="forward">Уперед</string>
     <string name="pause">Призупинити</string>
     <string name="alternative_pip_controls">Альтернативні елементи керування PiP</string>
-    <string name="alternative_pip_controls_summary">Показувати лише аудіо та пропускати елементи керування в PiP замість перемотування вперед та назад</string>
     <string name="audio_only_mode">Режим лише аудіо</string>
     <string name="audio_only_mode_summary">Перетворіть LibreTube на музичний програвач</string>
     <string name="no_subtitle">Немає субтитрів</string>

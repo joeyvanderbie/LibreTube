@@ -410,7 +410,7 @@
     <string name="autoplay_countdown_summary">Een aftelling van 5 seconden tonen voordat de volgende video automatisch wordt afgespeeld</string>
     <string name="dearrow_summary">Geef meer accurate en minder sensationele titels en miniaturen weer. Verhoogt de laadtijden</string>
     <string name="notification_time_summary">Beperk de tijdspanne waarin streammeldingen worden weergegeven</string>
-    <string name="alternative_pip_controls_summary">Toon alleen audio en overslaan in PiP in plaats van vooruit- en terugspoelen</string>
+    <string name="alternative_pip_controls_summary">Toon in PiP een knop om over te slaan in plaats van terugspoelen</string>
     <string name="play_automatically_summary">Start het afspelen automatisch bij het selecteren van een video</string>
     <string name="emptyPlaylistDescription">De afspeellijstbeschrijving kan niet leeg zijn</string>
     <string name="swipe_controls_summary">Veeg tijdens volledig scherm om de helderheid en het volume aan te passen</string>

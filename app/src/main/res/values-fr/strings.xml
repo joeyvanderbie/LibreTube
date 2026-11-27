@@ -308,7 +308,6 @@
     <string name="forward">Avancer</string>
     <string name="pause">Pause</string>
     <string name="alternative_pip_controls">Commandes d’image dans l’image alternatives</string>
-    <string name="alternative_pip_controls_summary">Afficher uniquement l’audio et les commandes de saut dans le mode « Image dans l’image » au lieu de l’avance et du retour en arrière</string>
     <string name="faq">FAQ</string>
     <string name="skip_silence">Passer les silences</string>
     <string name="concurrent_downloads_limit_reached">Limite maximale de téléchargements simultanés atteinte.</string>

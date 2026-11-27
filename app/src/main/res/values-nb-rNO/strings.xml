@@ -305,7 +305,6 @@
     <string name="rewind">Spol tilbake</string>
     <string name="pause">Pause</string>
     <string name="alternative_pip_controls">Alternative BiB-kontroller</string>
-    <string name="alternative_pip_controls_summary">Vis kun lyd og hopp over kontroller i PiP istedenfor spoling tilbake og forover</string>
     <string name="audio_only_mode">Modus for kun lyd</string>
     <string name="no_subtitle">Ingen undertekst</string>
     <string name="download_paused">Nedlasting pauset</string>

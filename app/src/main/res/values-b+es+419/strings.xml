@@ -306,7 +306,6 @@
     <string name="remove_bookmark">Quitar marcador</string>
     <string name="forward">Avanzar</string>
     <string name="pause">Pausa</string>
-    <string name="alternative_pip_controls_summary">Mostrar boton \"Modo audio\" y Anterior/Siguiente en la ventana flotante en lugar de avance y retroceso</string>
     <string name="rewind">Retroceder</string>
     <string name="alternative_pip_controls">Controles PiP alternativos</string>
     <string name="audio_only_mode_summary">Convierte LibreTube en un reproductor de música</string>

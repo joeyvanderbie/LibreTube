@@ -218,7 +218,6 @@
     <string name="import_watch_history">கண்காணிப்பு வரலாற்றை இறக்குமதி செய்யுங்கள்</string>
     <string name="audio_video">ஆடியோ மற்றும் வீடியோ</string>
     <string name="add_to_bookmarks">புக்மார்க்குகளில் சேர்க்கவும்</string>
-    <string name="alternative_pip_controls_summary">ஆடியோவை மட்டும் காண்பி, முன்னோக்கி மற்றும் முன்னாடி வைப்பதற்கு பதிலாக பிப் இல் கட்டுப்பாடுகளைத் தவிர்க்கவும்</string>
     <string name="add_to_queue">வரிசையில் சேர்க்கவும்</string>
     <string name="open_copied">திற</string>
     <string name="device_info">சாதனத் செய்தி</string>

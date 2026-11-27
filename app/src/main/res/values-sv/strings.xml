@@ -292,7 +292,6 @@
     <string name="comments_disabled">Uppladdaren har inaktiverat kommentarer.</string>
     <string name="no_fullscreen_resolution">Ingen helskärmsupplösning</string>
     <string name="home_tab_content">Innehåll i fliken Hem</string>
-    <string name="alternative_pip_controls_summary">Visa knappar för ”endast ljud” och ”nästa/föregående” i bild-i-bild-läget i stället för knappar för att spola framåt eller bakåt.</string>
     <string name="preferences">Inställningar</string>
     <string name="uploader_name">Uppladdarens namn</string>
     <string name="clear_bookmarks">Rensa bokmärken</string>

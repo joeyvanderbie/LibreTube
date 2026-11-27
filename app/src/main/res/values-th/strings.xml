@@ -471,7 +471,6 @@
     <string name="layout">รูปแบบ</string>
     <string name="audio_track">ช่องเสียง</string>
     <string name="alternative_pip_controls">ปุ่มควบคุมภาพซ้อนภาพอีกรูปแบบ</string>
-    <string name="alternative_pip_controls_summary">แสดงแค่ปุ่มข้ามและปุ่มเสียงเท่านั้นในโหมดภาพซ้อนภาพแทนปุ่มกรอข้ามและกรอกลับ</string>
     <string name="channel_groups">กลุ่มช่อง</string>
     <string name="new_group">ใหม่</string>
     <string name="group_name">ชื่อกลุ่ม</string>

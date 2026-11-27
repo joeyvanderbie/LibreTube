@@ -308,7 +308,6 @@
     <string name="rewind">الترجيع</string>
     <string name="forward">التقديم</string>
     <string name="alternative_pip_controls">ضوابط الفيديوهات العائمة</string>
-    <string name="alternative_pip_controls_summary">إظهار الصوت فقط وتخطي ضوابط الفيديوهات العائمة بدلاً من التقديم والترجيع</string>
     <string name="audio_only_mode">وضع الصوت فقط</string>
     <string name="audio_only_mode_summary">حول LibreTube إلى مشغل موسيقى</string>
     <string name="no_subtitle">لا توجد ترجمة</string>

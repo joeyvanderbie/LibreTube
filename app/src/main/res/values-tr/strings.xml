@@ -301,7 +301,6 @@
     <string name="color_violet">Kullanışlı mor</string>
     <string name="pause">Duraklat</string>
     <string name="rewind">Geri sar</string>
-    <string name="alternative_pip_controls_summary">Resim içinde resim modundayken ileri ve geri sarmak yerine yalnızca sesi oynat ve denetimleri atla</string>
     <string name="unknown">Bilinmeyen</string>
     <string name="concurrent_downloads_limit_reached">Aynı anda maksimum indirme sınırına ulaşıldı.</string>
     <string name="resume">Devam</string>

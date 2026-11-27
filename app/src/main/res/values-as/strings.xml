@@ -342,7 +342,6 @@
     <string name="rewind">পিছুৱাওক</string>
     <string name="forward">আগুৱাওক</string>
     <string name="alternative_pip_controls">বিকল্প পিআইপি নিয়ন্ত্ৰণ</string>
-    <string name="alternative_pip_controls_summary">আগুৱাওক আৰু পিছুৱাওকৰ সলনি পিআইপিত কেৱল অডিঅ’ আৰু এৰাই যোৱা নিয়ন্ত্ৰণ দেখুৱাওক</string>
     <string name="audio_only_mode">কেৱল অডিঅ’ মোড</string>
     <string name="audio_only_mode_summary">লিব্ৰেটিউবক মিউজিক প্লেয়াৰলৈ পৰিণত কৰক</string>
     <string name="sleep_timer">ঘুমৰ টাইমাৰ</string>

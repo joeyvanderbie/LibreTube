@@ -259,7 +259,6 @@
     <string name="brightness">Luminozitate</string>
     <string name="double_tap_seek_summary">Atinge de două ori în partea stângă sau dreaptă pentru a derula înapoi sau înainte poziția playerului</string>
     <string name="remove_bookmark">Elimină marcajul</string>
-    <string name="alternative_pip_controls_summary">Afișează doar comenzile pentru sunet și de omitere în modul Imagine-în-Imagine, în loc de derulare înainte și înapoi</string>
     <string name="stats_for_nerds">Statistici pentru pasionați</string>
     <string name="push_channel_name">Notificator</string>
     <string name="download_channel_name">Serviciu de descărcare</string>

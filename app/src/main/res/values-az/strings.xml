@@ -307,7 +307,6 @@
     <string name="forward">İrəli</string>
     <string name="pause">Fasilə et</string>
     <string name="alternative_pip_controls">Alternativ PiP idarəedicilər</string>
-    <string name="alternative_pip_controls_summary">PiP\'də, irəli və geri çevirmə əvəzinə \"yalnız səs\" düyməsin göstər və idarəediciləri ötür</string>
     <string name="rewind">Geri</string>
     <string name="audio_only_mode">Yalnız səs rejimi</string>
     <string name="audio_only_mode_summary">LibreTube-u musiqi səsləndiriciyə çevir</string>

@@ -434,7 +434,6 @@
     <string name="unsubscribe">Segja upp áskrift</string>
     <string name="uploader_name">Nafn þess sem sendi inn</string>
     <string name="play_next">Spila næst</string>
-    <string name="alternative_pip_controls_summary">Birta aðeins hljóð og sleppa stýringum í mynd-í-mynd í stað spóla áfram/afturábak-hnappa</string>
     <string name="time_in_minutes">Tími í mínútum</string>
     <string name="app_theme">Þema</string>
     <string name="server_error">Það virðist vera vandamál með valinn netþjón. Prófaðu annað tilvik.</string>

@@ -329,7 +329,6 @@
     <string name="uploaderAndVideoCount">%1$s • %2$d videoklipi</string>
     <string name="subscriberAndVideoCounts">%1$s abonenti • %2$d videoklipi</string>
     <string name="audio_track">Audio celiņš</string>
-    <string name="alternative_pip_controls_summary">Rādīt tikai audio un izlaist vadīklas attēlā attēlā, nevis uz priekšu un atpakaļ</string>
     <string name="autoplay_countdown">Automātiskās atskaņošanas atpakaļskaitīšana</string>
     <string name="featured">Piedāvātie</string>
     <string name="alternative_pip_controls">Alternatīvas PiP vadīklas</string>

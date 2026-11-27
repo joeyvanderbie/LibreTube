@@ -328,7 +328,6 @@
     <string name="no_subtitle">자막 없음</string>
     <string name="rewind">되감기</string>
     <string name="alternative_pip_controls">대체 PiP 컨트롤</string>
-    <string name="alternative_pip_controls_summary">앞으로 및 되감기 대신 PiP에서 오디오만 표시하고 컨트롤 건너뛰기</string>
     <string name="all_caught_up">모든 것을 확인했습니다</string>
     <string name="category">분류</string>
     <string name="resume">재개</string>

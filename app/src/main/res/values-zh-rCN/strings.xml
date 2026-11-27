@@ -308,7 +308,6 @@
     <string name="pause">暂停</string>
     <string name="rewind">后退</string>
     <string name="alternative_pip_controls">备选画中画控件</string>
-    <string name="alternative_pip_controls_summary">在画中画里显示仅音频和跳过控件而非快进和快退控件</string>
     <string name="audio_only_mode_summary">将 LibreTube 作为音乐播放器</string>
     <string name="no_subtitle">无字幕</string>
     <string name="download_paused">下载已暂停</string>

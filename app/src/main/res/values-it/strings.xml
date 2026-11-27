@@ -308,7 +308,6 @@
     <string name="forward">Avanti</string>
     <string name="pause">Pausa</string>
     <string name="alternative_pip_controls">Controlli PiP alternativi</string>
-    <string name="alternative_pip_controls_summary">Mostra solo l\'audio e salta i controlli nel PiP, invece di avanti e riavvolgi</string>
     <string name="no_subtitle">Nessun sottotitolo</string>
     <string name="download_paused">Scaricamento in pausa</string>
     <string name="download_completed">Scaricamento completato</string>

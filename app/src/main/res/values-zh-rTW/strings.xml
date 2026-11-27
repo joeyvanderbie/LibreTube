@@ -319,7 +319,6 @@
     <string name="seek_increment">快轉幅度</string>
     <string name="import_playlists">匯入播放清單</string>
     <string name="alternative_pip_controls">另一種畫中畫控制模式</string>
-    <string name="alternative_pip_controls_summary">只顯示音訊，跳過畫中畫的前進後退控制</string>
     <string name="all_caught_up_summary">您已經看完了所有影片</string>
     <string name="mark_as_watched">標記為已觀看</string>
     <string name="normal_views">%1$s 次觀看%2$s</string>

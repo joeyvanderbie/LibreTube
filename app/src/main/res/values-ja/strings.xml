@@ -316,7 +316,6 @@
     <string name="rewind">戻る</string>
     <string name="forward">進む</string>
     <string name="alternative_pip_controls">PiP 制御方法を変更</string>
-    <string name="alternative_pip_controls_summary">PiP では、早送りと巻き戻しの代わりに、音声のみモードとスキップを表示</string>
     <string name="audio_only_mode">音声のみモード</string>
     <string name="audio_only_mode_summary">LibreTube を音楽プレーヤーに変えます</string>
     <string name="mark_as_watched">視聴済みにする</string>

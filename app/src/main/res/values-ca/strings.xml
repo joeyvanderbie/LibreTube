@@ -385,7 +385,6 @@
     <string name="double_tap_seek_summary">Toqueu dues vegades a l\'esquerra o a la dreta per a retrocedir o avançar la posició del reproductor</string>
     <string name="username_email">No es recomana utilitzar una adreça electrònica com a nom d\'usuari. Continuar igualment?</string>
     <string name="forward">Avança</string>
-    <string name="alternative_pip_controls_summary">Mostra només els controls d\'àudio i per saltar a Imatge sobre Imatge en lloc de retrocedir i avançar</string>
     <string name="audio_only_mode">Mode de només àudio</string>
     <string name="mark_as_watched">Marca com a vist</string>
     <string name="autoplay_countdown_summary">Mostra un compte enrere de 5 segons abans de reproduir automàticament el vídeo següent</string>

@@ -343,7 +343,6 @@
     <string name="pinch_control">ئاماژەی بچووککردنەوە</string>
     <string name="pinch_control_summary">بەکارهێنانی ئاماژەی بچووککردنەوە بۆ هێنانەپێش/دوورخستنەوە</string>
     <string name="alternative_pip_controls">دوگمە جێگرەوەکانی PiP</string>
-    <string name="alternative_pip_controls_summary">تەنها پیشاندانی دوگمەکانی دەنگ و فەرامۆشکردنی دوگمەکانی PiP لەجیاتی پێشخستن و دواخستن</string>
     <string name="skip_silence">پەڕاندنی بێدەنگەکان</string>
     <string name="autoplay_countdown_summary">پیشاندانی ژماردنی ٥ چرکە پێش لێدانی ڤێدیۆیی دواتر</string>
     <string name="download_channel_description">پیشاندانی ئاگادارکردنەوە لەکاتی داگرتنی فایلەکان.</string>

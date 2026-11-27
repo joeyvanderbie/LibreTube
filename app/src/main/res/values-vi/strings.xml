@@ -307,7 +307,6 @@
     <string name="color">Màu sắc</string>
     <string name="off">Tắt</string>
     <string name="fullscreen_gestures">Cử chỉ vào/thoát toàn màn hình</string>
-    <string name="alternative_pip_controls_summary">Chỉ hiển thị âm thanh và bỏ qua các điều khiển trong HtH thay vì tua đi và tua lại</string>
     <string name="home_tab_content">Nội dung thẻ trang chủ</string>
     <string name="audio_only_mode_summary">Biến LibreTube thành một trình phát nhạc</string>
     <string name="sb_custom_colors">Tùy chỉnh màu phân đoạn</string>

@@ -235,7 +235,6 @@
     <string name="chapters">Епизоди</string>
     <string name="no_fullscreen_resolution">Без резолюция на цял екран</string>
     <string name="home_tab_content">Съдържание на началния раздел</string>
-    <string name="alternative_pip_controls_summary">Покажи само аудио и контролите за прескачане в PiP вместо напред и назад</string>
     <string name="category_outro_summary">Информация след края. Не за изводи с инфо</string>
     <string name="material_you">Материален</string>
     <string name="resume">Продължи</string>

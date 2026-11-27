@@ -428,7 +428,6 @@
     <string name="pinch_control">Controlo de pinciamento</string>
     <string name="change_region">Tendentias non pare esser disponibile pro le region actual. Selige altere in le parametros.</string>
     <string name="watch_history_summary">Mantener le controlo del videos reguardate localmente</string>
-    <string name="alternative_pip_controls_summary">Monstrar solmente audio e saltar controlos in Imagine-in-Imagine in vice de avantiar e rebobinar</string>
     <string name="swipe_controls_summary">Glissar pro adjustar le luminositate e volumine in modo de schermo plen</string>
     <string name="swipe_controls">Controlos de glissamento</string>
     <string name="tooltip_scroll_to_top">Rolar al alto</string>

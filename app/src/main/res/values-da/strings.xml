@@ -369,7 +369,6 @@
     <string name="preferences">Præferencer</string>
     <string name="pinch_control">Knibeindstillinger</string>
     <string name="alternative_pip_controls">Alternative BiB-indstillinger</string>
-    <string name="alternative_pip_controls_summary">Vis kun lyd og spring over kontrol i BiB i stedet for spol frem og tilbage</string>
     <string name="audio_only_mode">Kun lyd-tilstand</string>
     <string name="sleep_timer">Søvntimer</string>
     <string name="skip_silence">Spring stilhed over</string>

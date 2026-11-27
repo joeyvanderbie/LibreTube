@@ -306,7 +306,6 @@
     <string name="remove_bookmark">Odstranit záložku</string>
     <string name="rewind">Přetočit</string>
     <string name="pause">Pozastavit</string>
-    <string name="alternative_pip_controls_summary">V PiP místo přetočení zpět a vpřed zobrazit ovládání režimu pouze zvuku a přeskočení</string>
     <string name="forward">Vpřed</string>
     <string name="alternative_pip_controls">Alternativní ovládací prvky PiP</string>
     <string name="no_subtitle">Bez titulků</string>

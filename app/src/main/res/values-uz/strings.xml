@@ -352,7 +352,6 @@
     <string name="rewind">Orqaga surish</string>
     <string name="forward">Oldinga surish</string>
     <string name="alternative_pip_controls">Muqobil PiP (Parcha oynasi) boshqaruvlari</string>
-    <string name="alternative_pip_controls_summary">Faqat audio-ni ko‘rsatish va PiP-da oldinga/ortga surish o‘rniga boshqaruvlarni o‘tkazib yuborish</string>
     <string name="audio_only_mode">Faqat audio rejimi</string>
     <string name="audio_only_mode_summary">LibreTube’ni musiqa pleyeriga aylantirish</string>
     <string name="sleep_timer">Uyqu taymeri</string>

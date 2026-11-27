@@ -314,7 +314,6 @@
     <string name="download_completed">Download abgeschlossen</string>
     <string name="unknown">Unbekannt</string>
     <string name="resume">Fortsetzen</string>
-    <string name="alternative_pip_controls_summary">Buttons für \"Nur Audio\" und \"Überspringen\" im Bild-im-Bild-Modus anzeigen anstelle von Vor- und Zurückspulen</string>
     <string name="replies">Antworten</string>
     <string name="concurrent_downloads_limit_reached">Maximal Anzahl von Downloads erreicht.</string>
     <string name="audio_only_mode_summary">LibreTube in einen Musikplayer umwandeln</string>

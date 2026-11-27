@@ -307,7 +307,6 @@
     <string name="forward">Do przodu</string>
     <string name="pause">Wstrzymaj</string>
     <string name="alternative_pip_controls">Alternatywne sterowanie PiP</string>
-    <string name="alternative_pip_controls_summary">Pokaż elementy sterujące „tylko dźwięk” i pomijanie w PiP zamiast przewijania do przodu i do tyłu</string>
     <string name="download_paused">Pobieranie wstrzymane</string>
     <string name="download_completed">Pobieranie ukończone</string>
     <string name="concurrent_downloads_limit_reached">Osiągnięto limit maksymalnego jednoczesnego pobierania.</string>

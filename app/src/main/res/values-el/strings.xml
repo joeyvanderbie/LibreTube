@@ -267,7 +267,6 @@
     <string name="remove_bookmark">Αφαίρεση σελιδοδείκτη</string>
     <string name="forward">Εμπρός</string>
     <string name="alternative_pip_controls">Εναλλακτικά στοιχεία ελέγχου PiP</string>
-    <string name="alternative_pip_controls_summary">Εμφάνιση μόνο ήχου και παράβλεψη στοιχείων ελέγχου στο PiP αντί για εμπρός και πίσω</string>
     <string name="audio_only_mode">Λειτουργία μόνο ήχου</string>
     <string name="sleep_timer">Χρονοδιακόπτης ύπνου</string>
     <string name="skip_silence">Παράλειψη σιωπής</string>

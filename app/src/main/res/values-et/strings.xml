@@ -351,7 +351,6 @@
     <string name="all_caught_up">Kõik ongi nüüd tehtud</string>
     <string name="all_caught_up_summary">Sa oled näinud kõiki videoid</string>
     <string name="hide_watched_from_feed">Peida juba vaadatud videod</string>
-    <string name="alternative_pip_controls_summary">Edasi- ja tagasikerimise nuppude asemel näita pilt-pildis vaates vaid helivalikuid</string>
     <string name="audio_only_mode">Vaid audiovoo esitus</string>
     <string name="help">Abiteave</string>
     <string name="category">Kategooria</string>

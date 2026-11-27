@@ -308,7 +308,6 @@
     <string name="forward">आगे करें</string>
     <string name="pause">रोकें</string>
     <string name="alternative_pip_controls">वैकल्पिक पीआईपी नियंत्रण</string>
-    <string name="alternative_pip_controls_summary">आगे और पीछे करने के बजाय केवल ऑडियो दिखाएं और PiP में नियंत्रण छोड़ें</string>
     <string name="audio_only_mode">ऑडियो केवल मोड</string>
     <string name="audio_only_mode_summary">LibreTube को म्यूजिक प्लेयर में बदलें</string>
     <string name="no_subtitle">कोई उपशीर्षक नहीं</string>
